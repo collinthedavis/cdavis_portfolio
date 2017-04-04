@@ -18,6 +18,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
+          <%= video_tag(
+          'giphy2.mp4',
+          class: 'background',
+          autoplay: true,
+          loop: true,
+          muted: true,
+          )
+          %>
+
           <%= render "shared/application_nav" %>
           
           <%= yield %>
